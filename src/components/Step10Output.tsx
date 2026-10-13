@@ -133,9 +133,9 @@ export const Step10Output: React.FC<Step10Props> = ({
                 <label className="block text-xs font-medium text-slate-300">Key Alias</label>
                 <input
                   type="text"
-                  value={config.keyAlias || ''}
+                  value={config.keyAlias || 'myapp'}
                   onChange={(e) => onChange({ keyAlias: e.target.value })}
-                  placeholder="key0"
+                  placeholder="myapp"
                   className="w-full px-3 py-1.5 rounded-lg bg-slate-950 border border-slate-800 text-xs text-slate-200"
                 />
               </div>
@@ -149,7 +149,7 @@ export const Step10Output: React.FC<Step10Props> = ({
               <label className="block text-xs font-medium text-slate-300">New Key Alias</label>
               <input
                 type="text"
-                value={config.keyAlias || 'release_key'}
+                value={config.keyAlias || 'myapp'}
                 onChange={(e) => onChange({ keyAlias: e.target.value })}
                 className="w-full px-3 py-1.5 rounded-lg bg-slate-950 border border-slate-800 text-xs text-slate-200 font-mono"
               />

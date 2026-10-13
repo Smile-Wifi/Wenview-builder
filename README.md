@@ -51,7 +51,7 @@ npm run dev
 3. Add the following repository secrets:
    - `KEYSTORE_BASE64`: Base64 string of your release keystore (`cat release.jks | base64 -w 0`)
    - `KEYSTORE_PASS`: Password for keystore
-   - `KEY_ALIAS`: Alias of your signing key
+   - `KEY_ALIAS`: Alias of your signing key (e.g. `myapp`)
    - `CALLBACK_URL`: Webhook URL of your deployed app (`https://your-domain.com/api/callback`)
 4. In your app environment or wizard settings, configure:
    - `GH_TOKEN`: GitHub Personal Access Token with `repo` and `workflow` permissions

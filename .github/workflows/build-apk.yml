@@ -49,7 +49,7 @@ jobs:
         env:
           KEYSTORE_BASE64: ${{ secrets.KEYSTORE_BASE64 }}
           KEYSTORE_PASS: ${{ secrets.KEYSTORE_PASS || 'android' }}
-          KEY_ALIAS: ${{ secrets.KEY_ALIAS || 'key0' }}
+          KEY_ALIAS: ${{ secrets.KEY_ALIAS || 'myapp' }}
         run: |
           BUILD_TOOLS="$ANDROID_HOME/build-tools/34.0.0"
           UNSIGNED_APK="android-template/app/build/outputs/apk/release/app-release-unsigned.apk"

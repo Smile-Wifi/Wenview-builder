@@ -57,7 +57,7 @@ export const DocsView: React.FC = () => {
             <ul className="list-disc list-inside pl-4 mt-1 space-y-1 text-slate-400 font-mono">
               <li>KEYSTORE_BASE64 (base64 encoded release keystore)</li>
               <li>KEYSTORE_PASS (keystore password)</li>
-              <li>KEY_ALIAS (signing key alias)</li>
+              <li>KEY_ALIAS (signing key alias, e.g. myapp)</li>
               <li>CALLBACK_URL (your app webhook: https://your-domain.com/api/callback)</li>
             </ul>
           </li>
