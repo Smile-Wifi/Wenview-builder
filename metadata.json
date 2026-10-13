@@ -1,0 +1,6 @@
+{
+  "name": "HTML to Android APK Builder",
+  "description": "Production HTML to signed Android APK and AAB builder with Capacitor v6, custom splash screen, WebView configuration, and release signing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
